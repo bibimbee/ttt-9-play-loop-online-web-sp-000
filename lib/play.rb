@@ -38,8 +38,8 @@ end
 def play(board)
   counter = 0
     puts display_board(board)
-    turn(board)
     counter +=1
-    until counter == 9
+    while counter < 9
+      turn(board)
   end
 end
