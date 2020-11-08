@@ -38,7 +38,7 @@ end
 def play(board)
   counter = 9
   until counter == 9
-    puts "X"
+    puts display_board(board)
     counter +=1
     turn(board)
   end
