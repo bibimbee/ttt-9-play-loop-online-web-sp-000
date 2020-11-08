@@ -11,3 +11,5 @@ display_board(board)
 def play(board)
   turn(board)
 end
+
+play(board)
